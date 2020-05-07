@@ -62,6 +62,7 @@ export default function App() {
 
               <TouchableOpacity
                 style={styles.button}
+                activeOpacity={0.8}
                 onPress={() => handleLikeRepository(repository.id)}
                 // Remember to replace "1" below with repository ID: {`like-button-${repository.id}`}
                 testID={`like-button-${repository.id}`}
